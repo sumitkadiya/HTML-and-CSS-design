@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: url('images/adult-1850925_1920.jpg');
+    color: white;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: white;
+    padding: 24px 24px;
+}
+.navbar li a:hover, .navbar li a:active{
+    color: gray;
+    text-decoration: underline;
+
+}
+.left{
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+.left img{
+    filter: invert(100%);
+    width: 80px;
+    height: 80px;
+}
+.left div{
+    text-align: center;
+}
+.center{
+    /* border: 2px solid yellow; */
+    display: block;
+    width: 45%;
+    margin: 20px auto;
+}
+
+.right{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+.btn{
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border: 2px solid gray;
+    border-radius: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(54, 52, 52);
+}
+.con{
+    border: 2px solid rgb(243, 248, 243);
+    margin: 100px 80px;
+    padding: 70px;
+    border-radius: 10px;
+    width: 450px;
+}
+.con h1{
+    font-family: 'Cairo', sans-serif;   
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    width: 300px;
+    border: 2px solid black;
+    margin: 10px auto;
+    font-size: 15px;
+    border-radius: 10px;
+}
+.con h1 {
+    text-align: center;
+}
+/* .con button{
+    display: block;
+    width: 80px;
+    margin: auto;
+    border-radius: 14px;
+} */
+.rst{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+}
